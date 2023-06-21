@@ -5,24 +5,24 @@
 }
 
 body{
-   background-color: white;
+   background-image: url(/Imagens/montanhas.jpg);
    background-position: center;
    background-size: cover;
-   
+
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
-    
+
     100% {  transform: rotate(360deg); }
   }
-  
+
   .bolinha1 {
     width: 10px;
     height: 10px;
@@ -32,29 +32,29 @@ body{
     margin-right: 8px;
     border:2px solid white;
     border-top: 2px solid transparent;
-    
-  }
- 
- 
 
-  
-  
-  
-  
+  }
+
+
+
+
+
+
+
   .loading {
     padding-top: 10px;
     margin-bottom: -5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
   }
-  
+
 
 
 
 .container{
-    background-color: rgb(81, 9, 196);
+    background-color: #9693a5;
     padding: 10px;
     border-radius: 14px;
     box-shadow: 0px 3px 8px black;
@@ -86,8 +86,8 @@ body{
     border: none;
     margin-left: 5px;
     color: black;
-    
-    
+
+
 }
 
 .search:hover{
@@ -99,7 +99,7 @@ body{
 
 
 #rees{
-    
+
     border-top: 1px solid rgb(255, 255, 255);
     margin-top: 15px;
     text-align: center;
@@ -130,7 +130,7 @@ i{
 
 .erro{
     border-top: 1px solid rgb(255, 255, 255);
-    
+
     margin-top: 15px;
     text-align: center;
     padding: 10px;
